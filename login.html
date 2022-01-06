@@ -1,0 +1,20 @@
+   
+<html>
+    <head>                              <!-- 程式重點 登入  -->
+        <meta charset="utf-8" /> 
+        <!-- 用來指定網頁內容是用什麼編碼  -->
+        <title>登入範例</title>
+        <!-- <title> 網頁標題 </title>  -->
+    </head>
+    <body>
+        <form method=post action="login.php"><!-- method=post 用post的方法來傳送資料(不會顯示在上面)  
+            action="login.php" 傳送到 login.php --> 
+            帳號：<input type=text name="id"><br />
+            <!-- 產生輸入方框 形式用text(顯示內容) 名子叫id -->
+            密碼：<input type=password name="pwd"><p></p>
+            <!-- 產生輸入方框 形式用password(不會顯示內容) 名子叫pwd -->
+            <input type=submit value="登入"> <input type=reset value="清除">
+            <!-- 送出 外觀是登入                    重製 外觀是清除 -->
+        </form>
+    </body>
+</html>
